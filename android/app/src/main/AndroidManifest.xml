@@ -1,8 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.esp_wifi_test">
+    package="com.peratykin.hex_term">
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
    <application
-        android:label="esp_wifi_test"
-        android:icon="@mipmap/ic_launcher">
+        android:label="hex_term"
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

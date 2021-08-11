@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "A new Flutter project." "\0"
+            VALUE "CompanyName", "com.peratykin" "\0"
+            VALUE "FileDescription", "Receiving/sending binary data" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "esp_wifi_test" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2021 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "esp_wifi_test.exe" "\0"
-            VALUE "ProductName", "esp_wifi_test" "\0"
+            VALUE "InternalName", "hex_term" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2021 com.peratykin. All rights reserved." "\0"
+            VALUE "OriginalFilename", "hex_term.exe" "\0"
+            VALUE "ProductName", "hex_term" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

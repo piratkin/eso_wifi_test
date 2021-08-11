@@ -1,6 +1,6 @@
-# esp_wifi_test
+# hex_term
 
-A new Flutter project.
+Receiving/sending binary data
 
 ## Getting Started
 

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(esp_wifi_test LANGUAGES CXX)
+project(hex_term LANGUAGES CXX)
 
-set(BINARY_NAME "esp_wifi_test")
+set(BINARY_NAME "hex_term")
 
 cmake_policy(SET CMP0063 NEW)
 
