@@ -231,7 +231,7 @@ class _HexTermPageState extends State<HexTermPage> {
                         gripColorActive: Theme.of(context).primaryColor,
                         children: [
                           Container(
-                            margin: const EdgeInsets.symmetric(vertical: 8.0),
+                            margin: const EdgeInsets.only(top: 8, bottom: 4),
                             child: TextField(
                               textAlignVertical: TextAlignVertical.bottom,
                               controller: _outputController,
@@ -253,10 +253,14 @@ class _HexTermPageState extends State<HexTermPage> {
                                             bottom: 0.0,
                                           )),
                               ),
+                              style: TextStyle(
+                                fontFamily: 'DejaVuSansMono',
+                                fontSize: 15,
+                              ),
                             ),
                           ),
                           Container(
-                            margin: const EdgeInsets.symmetric(vertical: 8.0),
+                            margin: const EdgeInsets.only(top: 4, bottom: 8),
                             child: TextField(
                               textAlignVertical: TextAlignVertical.top,
                               controller: _contentController,
@@ -278,9 +282,14 @@ class _HexTermPageState extends State<HexTermPage> {
                                             bottom: 0.0,
                                           )),
                               ),
+                              style: TextStyle(
+                                fontFamily: 'DejaVuSansMono',
+                                fontSize: 15,
+                              ),
                             ),
                           ),
                         ],
+                        gripSize: 8.0,
                         viewMode: SplitViewMode.Vertical,
                         indicator: SplitIndicator(
                           viewMode: SplitViewMode.Vertical,
